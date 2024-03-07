@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perpustakaan Dashboard</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav {
+        background-color: #555;
+        padding: 10px;
+        text-align: center;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      .book-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+      }
+
+      .book-card {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 200px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Perpustakaan EVOS</h1>
+    </header>
+
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Katalog Buku</a>
+      <a href="#">Peminjaman</a>
+      <a href="#">Anggota</a>
+      <a href="#">Statistik</a>
+      <a href="#">Keluar</a>
+    </nav>
+
+    <section>
+      <h2>Selamat datang di Dashboard Perpustakaan</h2>
+
+      <div class="book-list">
+        <!-- Contoh Kartu Buku -->
+        <div class="book-card">
+          <h3>Judul Buku 1</h3>
+          <p>Penulis: Penulis Buku 1</p>
+          <p>Tahun Terbit: 2022</p>
+        </div>
+
+        <div class="book-card">
+          <h3>Judul Buku 2</h3>
+          <p>Penulis: Penulis Buku 2</p>
+          <p>Tahun Terbit: 2023</p>
+        </div>
+
+        <!-- Tambahkan kartu buku lainnya sesuai kebutuhan -->
+      </div>
+    </section>
+  </body>
+</html>
